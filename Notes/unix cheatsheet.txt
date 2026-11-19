@@ -1,0 +1,25 @@
+Command 		Options			Name/desc
+=========================================
+pwd								print working directory
+ls				-laFH			list
+cd								change directory
+mkdir			-p 				make directory
+rm				-ri				remove file/directory
+rmdir							remove empty directory
+cp								copy file/directory
+mv								move/rename file
+man								manual pages
+touch							create an empty file
+more/less						display (paginate)file
+head			-n				display first part of a file
+less			-n				display last part of a file
+cat								diplay text file
+echo							print text to screen
+chmod							change file permissions
+file							description of a file
+sort			-ngr			sort data
+uniq			-c  			identif unique values
+tr  			-s              replace character
+cut 			-d -f 			filter fields
+grep			-Eocvwn			Global regular expression print search and match patters
+wc				-l -c           count

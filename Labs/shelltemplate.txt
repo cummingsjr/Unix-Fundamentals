@@ -1,0 +1,35 @@
+#!/bin/bash
+#############################################################
+#  Name: James Cummings
+#  Author:
+#  Date:
+#  Last rev:
+#  Description:
+############################################################
+
+#colored text
+
+RESET="\e[0m"
+CYAN="\e[36m"
+YELLOW="\e[38;5;228m"
+PURPLE="\e[38;5;141m"
+RED="\e[38;5;196m"
+GREEN="\e[38;5;43m"
+BLUE="\e[38;5;26m"
+LTPURP="\e[38;5;219m"
+ORANGE="\e[38;5;216m"
+
+
+# error check
+
+# if (( $# != 1 ))
+# then
+# echo -e ${RED} "Error! Usage: $0 <filename>"
+# echo -e {RESET}
+# exit 1
+# fi
+#=> end error checks
+##### Code goes here #####
+echo -e ${ORANGE}"It's working..." ${RESET}
+##########
+exit 0

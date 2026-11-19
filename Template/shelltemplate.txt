@@ -1,0 +1,36 @@
+
+
+
+#!/bin/bash
+######################################################
+#Name:
+# Author:
+# Date:
+# Last rev
+# Description:
+######################################################
+
+#colored text
+RESET="\e[0m"
+CYAN="\e[36m"
+YELLOW="\e[38;5;228m"
+PURPLE="\e[38;5;141m"
+RED="\e[38;5;196m"
+GREEN="\e[38;5;43m"
+BLUE="\e[38;5;226m"
+LTPURP="\e[38;5;219m"
+ORANGE="\e[38;5;216m"
+
+# error checks
+# if (( $# !=1 ))
+# then
+# echo "Error! Usage: $0 <filename>"
+# exit 1
+#fi
+#=> end error check
+
+##### Code goes here #####
+echo -e ${ORANGE}"Looks like I'm working ok..."${RESET}
+########
+exit 0
+
